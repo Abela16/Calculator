@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto mono", monospace;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #311312 23%, #090c31 50%);
+}
+.calculator{
+    width: 400px;
+    padding: 50px 30px;
+    background-color: #153c15;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 29px 50px rgba(0, 5, 24, 0.4);
+}
+.display{
+    width: 100%;
+}
+.input-button{
+    padding: 30px ;
+
+}
